@@ -1,0 +1,13 @@
+# IntelliJ IDE
+.idea/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Python cached data
+__pycache__/
+.cache/
+.pytest_cache
+
+# Python venv
+/venv
