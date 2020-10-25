@@ -16,6 +16,6 @@ else:
         if vegetarians == str("да") and vegans == str("нет") and out_gluten == str("нет"):
             print(f'{italian}')
             if vegetarians == str("да") and vegans == str("нет") and out_gluten == str("да"):
-            print(f'{central_pizza}')
+                print(f'{central_pizza}')
 
 # изрядно высушило мозг
