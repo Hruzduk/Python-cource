@@ -1,5 +1,5 @@
 numbers = 20
-lst = [0] * numbers
+lst = [0.] * numbers
 
 for i in range(numbers):
     print("Input number ", i +1, ':')
@@ -8,9 +8,9 @@ for i in range(numbers):
 little = min(lst)
 maxim = max(lst)
 summa = sum(lst)
-averega = summa / len(lst)
+average = summa / len(lst)
 
 print(f'Вы ввели: {lst}')
 print(f'Максимальное значение: {maxim}')
 print(f'Минимальное значение: {little}')
-print(f'Среднее арифметическое значение: {averega}')
+print(f'Среднее арифметическое значение: {average}')
